@@ -1,8 +1,8 @@
 {
-  "name": "@nuxtjs/uikit",
-  "version": "0.0.1",
+  "name": "nuxt-uikit-module",
+  "version": "1.0.5",
   "description": "UIkit module for Nuxt",
-  "repository": "https://github.com/fedorae-com/uikit-module",
+  "repository": "https://github.com/fedorae-com/nuxt-uikit-module",
   "license": "MIT",
   "type": "module",
   "exports": {
