@@ -27,3 +27,5 @@ Add nuxt-uikit to the modules section of your nuxt.config.ts file:
 - Run `yarn dev:prepare` to generate type stubs.
 - Use `yarn dev` to start [playground](./playground) in development mode.
 
+# License
+[MIT license](./LICENSE)
