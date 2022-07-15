@@ -24,6 +24,6 @@ Add nuxt-uikit to the modules section of your nuxt.config.ts file:
 ```
 # Development
 
-- Run `npm run dev:prepare` to generate type stubs.
-- Use `npm run dev` to start [playground](./playground) in development mode.
+- Run `yarn dev:prepare` to generate type stubs.
+- Use `yarn dev` to start [playground](./playground) in development mode.
 
