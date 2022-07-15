@@ -5,10 +5,15 @@
 # Setup
 
 ## Installation
-Add nuxt-uikit dependency to your project:
+Add `nuxt-uikit` dependency to your project:
 
 ```bash
-yarn add nuxt-uikit
+# Using yarn
+yarn add --dev nuxt-uikit
+```
+```bash
+# Using npm
+npm install --save-dev nuxt-uikit
 ```
 
 ## Setup
@@ -16,7 +21,7 @@ Add nuxt-uikit to the modules section of your nuxt.config.ts file:
 
 ```ts
 {
-  modules: [
+  buildModules: [
     'nuxt-uikit'
   ],
 }
