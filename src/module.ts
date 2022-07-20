@@ -17,6 +17,7 @@ export default defineNuxtModule<ModuleOptions>({
   setup (options, nuxt) {
     if (options.addPlugin) {
       const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
+      nuxt.options.css.push('uikit/dist/css/uikit.css')
       nuxt.options.build.transpile.push(runtimeDir)
       addPlugin(resolve(runtimeDir, 'plugin'))
     }
